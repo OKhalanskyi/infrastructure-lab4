@@ -7,7 +7,14 @@ on:
       - 'main'
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Linter fixing
+        run: eslint --fix .
   docker:
+    needs: [lint]
     runs-on: ubuntu-latest
     steps:
       -
