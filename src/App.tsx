@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
            Khalanskyi
-        Ivanov
+          Ivanov
            Dmytrinskyi
       </header>
     </div>

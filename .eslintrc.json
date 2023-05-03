@@ -24,7 +24,8 @@
         "import/no-unresolved": 0,
         "import/extensions": 0,
         "react/jsx-filename-extension": 0,
-        "no-undef": "off"
+        "no-undef": "off",
+        "react/jsx-indent": 0
     },
     "settings": {
         "react": {
