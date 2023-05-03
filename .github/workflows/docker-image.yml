@@ -12,7 +12,7 @@ jobs:
     steps:
       -
         name: Linter fixing
-        run: eslint --fix .
+        run: npm run lint
   docker:
     needs: [lint]
     runs-on: ubuntu-latest
