@@ -7,8 +7,8 @@ function App() {
       <header className="App-header">
 
         Khalanskyi
-          Ivanov
-          Dmytrinskyi
+        Ivanov
+        Dmytrinskyi
       </header>
     </div>
   );
