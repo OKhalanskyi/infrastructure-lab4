@@ -10,6 +10,7 @@ function App() {
         Dmytrinskyi
         and terraform
         + CICD
+          Finished
       </header>
     </div>
   );

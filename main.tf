@@ -1,3 +1,13 @@
+terraform {
+  cloud {
+    organization = "rolex-iit"
+
+    workspaces {
+      name = "infrastructure-lab4"
+    }
+  }
+}
+
 provider "aws" {
   region     = "us-east-1"
   access_key = "AKIARYNKRUTOSKWFT76I"
