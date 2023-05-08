@@ -49,6 +49,7 @@ resource "aws_instance" "ec2_server" {
               #!/bin/bash
               sudo apt-get update -y
               sudo apt-get install -y docker.io
+              sudo docker pull okhalanskyi/lab4
               sudo docker run -d -p 80:3000 okhalanskyi/lab4
               EOF
 
