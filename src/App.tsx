@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
         Ivanov
         Dmytrinskyi
         and terraform
-        999
+        9999
       </header>
     </div>
   );
