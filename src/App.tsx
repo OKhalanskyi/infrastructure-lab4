@@ -8,6 +8,7 @@ function App() {
            Khalanskyi
           Ivanov
            Dmytrinskyi
+          and terraform
       </header>
     </div>
   );
