@@ -10,7 +10,7 @@ function App() {
         Dmytrinskyi
         and terraform
         9999999
-          2:00
+          2:000
       </header>
     </div>
   );
