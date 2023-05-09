@@ -9,9 +9,7 @@ function App() {
         Ivanov
         Dmytrinskyi
         and terraform
-        + CICD
-          33last
-        PLEASE
+        4:30
       </header>
     </div>
   );
