@@ -3,10 +3,11 @@ terraform {
     organization = "rolex-iit"
 
     workspaces {
-      name = "infrastructure-lab4"
+      name = "iit-lab6"
     }
   }
 }
+
 
 provider "aws" {
   region     = "us-east-1"
