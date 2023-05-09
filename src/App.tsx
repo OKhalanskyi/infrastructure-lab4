@@ -9,7 +9,7 @@ function App() {
         Ivanov
         Dmytrinskyi
         and terraform
-        4:30
+        morning
       </header>
     </div>
   );
