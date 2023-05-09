@@ -52,7 +52,7 @@ resource "aws_security_group" "security_group" {
 resource "aws_instance" "ec2_server" {
   ami = "ami-007855ac798b5175e"
   instance_type = "t2.micro"
-  key_name = "lab6"
+  key_name = "tf"
   vpc_security_group_ids = [aws_security_group.security_group.id]
   associate_public_ip_address = true
 
