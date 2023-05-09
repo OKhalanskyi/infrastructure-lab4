@@ -9,7 +9,7 @@ function App() {
         Ivanov
         Dmytrinskyi
         and terraform
-        lab666
+        lab6.6.6
       </header>
     </div>
   );
