@@ -62,6 +62,10 @@ resource "aws_instance" "ec2_server" {
               sudo apt-get install -y docker.io
               sudo docker pull okhalanskyi/lab4
               sudo docker run -d -p 80:3000 okhalanskyi/lab4
+              $ docker run -d \
+              --name watchtower \
+              -v /var/run/docker.sock:/var/run/docker.sock \
+              containrrr/watchtower -i 60
               EOF
 
   tags = {
