@@ -10,7 +10,7 @@ function App() {
         Dmytrinskyi
         and terraform
         + CICD
-          Finished
+          33
       </header>
     </div>
   );
